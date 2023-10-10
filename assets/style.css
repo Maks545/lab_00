@@ -17,6 +17,11 @@ img {
     margin: 0 auto;
 }
 
+svg{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
 .title{
     font-weight: bold;
     font-size: 25px;
@@ -38,4 +43,18 @@ p{
     margin-top: 40px;
     margin-bottom: 40px;
     line-height: 32px;
+}
+
+.social_icon{
+    height: 32px;
+    width: 32px;
+    fill: rgb(191, 169, 198);
+    transition: fill ease 1.5s;
+}
+
+.social_icon:hover{
+    fill: rgb(146, 28, 182);
+}
+.copy{
+    margin: 40px auto;
 }
